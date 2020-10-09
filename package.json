@@ -5,7 +5,10 @@
   "main": "app.js",
   "directories": {
     "test": "test",
-    "start": "nodemon"
+    "start": "nodemon", 
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
   },
   "dependencies": {
     "express": "^4.17.1",

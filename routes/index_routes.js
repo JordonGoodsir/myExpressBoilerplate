@@ -6,7 +6,7 @@ const express = require('express');
 const router = express.Router(); 
 
 // imports methods from controller  
-const {} = require('../controllers/posts_controller'); 
+const {} = require('../controllers/index_controller'); 
 
 
 

@@ -11,4 +11,5 @@ const {} = require('../controllers/index_controller');
 
 
 // exports to app.js 
-module.exports = router;
+module.exports = router; 
+
